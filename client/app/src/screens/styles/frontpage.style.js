@@ -1,0 +1,85 @@
+import { StyleSheet } from "react-native";
+
+export default StyleSheet.create({
+  background: {
+    flex: 1,
+    width: '100%',
+  },
+  overlay: {
+    flex: 1,
+    backgroundColor: 'rgba(0, 0, 0, 0.65)',
+    justifyContent: 'space-between',
+    padding: 20,
+  },
+  title: {
+    fontSize: 48,
+    fontWeight: 'bold',
+    color: '#BBF246',
+    textAlign: 'center',
+    marginTop: '40%',
+    fontFamily: 'BebasNeue',
+    letterSpacing: 2,
+    textShadowColor: 'rgba(187, 242, 70, 0.3)',
+    textShadowOffset: { width: 0, height: 2 },
+    textShadowRadius: 4,
+  },
+  subtitle: {
+    fontSize: 18,
+    color: '#fff',
+    textAlign: 'center',
+    marginTop: 10,
+    fontFamily: 'BebasNeue',
+    letterSpacing: 1,
+  },
+  buttonContainer: {
+    position: 'absolute',
+    bottom: 50,
+    left: 20,
+    right: 20,
+    gap: 15,
+  },
+  getStartedButton: {
+    backgroundColor: '#BBF246',
+    paddingVertical: 18,
+    borderRadius: 30,
+    alignItems: 'center',
+    shadowColor: '#BBF246',
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.3,
+    shadowRadius: 4.65,
+    elevation: 8,
+    transform: [{ scale: 1 }],
+  },
+  getStartedText: {
+    color: '#000',
+    fontSize: 20,
+    fontWeight: 'bold',
+    letterSpacing: 1,
+    fontFamily: 'BebasNeue',
+  },
+  loginButton: {
+    backgroundColor: 'transparent',
+    paddingVertical: 18,
+    borderRadius: 30,
+    alignItems: 'center',
+    borderWidth: 2,
+    borderColor: '#BBF246',
+  },
+  loginText: {
+    color: '#BBF246',
+    fontSize: 20,
+    fontWeight: 'bold',
+    letterSpacing: 1,
+    fontFamily: 'BebasNeue',
+  },
+  motivationalText: {
+    color: '#fff',
+    fontSize: 16,
+    textAlign: 'center',
+    marginTop: 20,
+    fontStyle: 'italic',
+  }
+});
