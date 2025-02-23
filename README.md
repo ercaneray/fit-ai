@@ -3,9 +3,28 @@
 **Fit AI** is an AI-powered fitness coaching app that helps users create personalized workout and diet plans. Built using **React**, **Node.js**, **ChatGPT API**, and **Firebase**, the app provides an interactive experience for fitness enthusiasts.
 
 ## 📸 Screenshots  
-![Home Screen](screenshots/home.png)  
-![Workout Program](screenshots/workout.png)  
-![Diet Program](screenshots/diet.png)  
+Here are some UI previews of the app:
+
+### Home Screen  
+![Home Screen](https://github.com/ercaneray/fit-ai/blob/main/images/home.jpg?raw=true)
+
+### Login Screen  
+![Login Screen](https://github.com/ercaneray/fit-ai/blob/main/images/login.jpg?raw=true)
+
+### Main Dashboard  
+![Main Dashboard](https://github.com/ercaneray/fit-ai/blob/main/images/main.jpg?raw=true)
+
+### Workout Program  
+![Workout Program](https://github.com/ercaneray/fit-ai/blob/main/images/workout.jpg?raw=true)
+
+### Diet Program  
+![Diet Program](https://github.com/ercaneray/fit-ai/blob/main/images/diet.jpg?raw=true)
+
+### Registration Form  
+![Registration Form](https://github.com/ercaneray/fit-ai/blob/main/images/form.jpg?raw=true)
+
+### Select Program  
+![Select Program](https://github.com/ercaneray/fit-ai/blob/main/images/selectProgram.jpg?raw=true)
 
 ## 🚀 Features
 - 🔐 **User Authentication**: Secure login & sign-up with Firebase Authentication
